@@ -20,7 +20,7 @@ set ProgramData=%USBDRV%\ProgramData
 set CYGWIN=nodosfilewarning
 
 rem This specifies the login to use.
-set USERNAME=ntmoe
+set USERNAME=zeeter
 set HOME=/home/%USERNAME%
 
 rem Make sure /etc/passwd and /etc/group are set up for us
