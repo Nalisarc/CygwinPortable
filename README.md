@@ -3,6 +3,7 @@ CygwinPortable
 
 Configuration files to make Cygwin portable on a USB flash drive.
 
+Forked from ntmoe who made the lot of this, parts that I have made will be clearly marked.
 Setup
 -----
 
@@ -25,7 +26,7 @@ Let's assume that your USB flash drive is on `E:`.
 
 		$ cd /
 		$ git init
-		$ git remote add origin git://github.com/ntmoe/CygwinPortable.git
+		$ git remote add origin git://github.com/Nalisarc/CygwinPortable.git
 		$ git pull origin master
 
 6. Link the portable-ized configuration files (and some handy scripts that I use) to their proper locations:
