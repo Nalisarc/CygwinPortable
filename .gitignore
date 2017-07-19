@@ -1,10 +1,12 @@
 # Ignore all files
 *
+/tmp/
 # except
 !.gitignore
 !cygwinConfig.vbs
 !CygwinTerminal.vbs
 !XWinServer.vbs
+!emacs.vbs
 # and these directories
 !App/
 !Other/

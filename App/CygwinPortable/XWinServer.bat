@@ -27,4 +27,4 @@ rem Make sure /etc/passwd and /etc/group are set up for us
 %CYGROOT%bin\bash /Other/user_setup.sh
 
 rem Start XWin
-start /b %CYGROOT%bin/run.exe /usr/bin/bash.exe -l -c "/usr/bin/startxwin.exe -- -nolock -unixkill"
+start /b %CYGROOT%bin/run.exe /usr/bin/bash.exe -l -c "startxwin -- -nolock -unixkill"
